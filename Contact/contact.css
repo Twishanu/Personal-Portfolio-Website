@@ -5,6 +5,7 @@
 .nav{
     display: flex;
     position: fixed;
+    width: 100vw;
     right: 0;
     left: 0;
     flex-direction: row;
@@ -27,6 +28,7 @@
 }
 .nav #nav-right ul{
     display: flex;
+    margin-right: 20px;
     flex-direction: row;
 }
 .nav #nav-middle ul a{
@@ -46,4 +48,102 @@
 }
 .nav #nav-right ul a:hover{
     color: rgb(0, 0, 0);
+}
+
+
+
+.main #main-left{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(16, 0, 32);
+    box-shadow: 5px 5px 2px rgb(167, 167, 167);
+    position: absolute;
+    top: 170px;
+    z-index: 998;
+    left: 200px;
+}
+.main #main-left #main-left-heading{
+    color: white;
+    font-family:'Poppins', sans-serif;
+    height: 30%;
+    /* background-color: aqua; */
+}
+.main #main-left #main-left-heading h1{
+    padding-left: 40px;
+    padding-top: 40px;
+    font-size: 2.4rem;
+}
+.main #main-left #main-left-para{
+    color: white;
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+}
+.main #main-right{
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(208, 208, 208);
+    box-shadow: 5px 5px 2px rgb(236, 236, 236);
+    position: absolute;
+    top: 130px;
+    left: 270px;
+    display: flex;
+    flex-direction: row;
+}
+.main #main-right #main-right-left{
+    width: 40%;
+}
+.main #main-right #main-right-right{
+    width: 60%;
+    background-color: rgb(180 167 185);
+}
+.main #main-right #main-right-right #main-right-right-heading{
+    height: 20%;
+    color: rgb(31, 5, 56);
+    font-family:'Poppins', sans-serif;
+    padding-top: 20px;
+    padding-left: 30px;
+
+}
+.main #main-right #main-right-right #main-right-right-form{
+    height: 80%;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-family:'Poppins', sans-serif;
+}
+.main #main-right #main-right-right #main-right-right-form input{
+    color: rgb(31, 5, 56);
+    background-color: rgb(180 167 185);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(177, 121, 229);
+    padding: 15px;
+    font-family:'Poppins', sans-serif;
+    font-weight: 700;
+}
+.main #main-right #main-right-right #main-right-right-form textarea{
+    color: rgb(31, 5, 56);
+    background-color: rgb(180 167 185);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(177, 121, 229);
+    padding: 15px;
+    font-family:'Poppins', sans-serif;
+    font-weight: 700;
+    resize: none;
+}
+.main #main-right #main-right-right #main-right-right-form button{
+    margin-top: 50px;
+    padding: 8px 18px;
+    background-color: rgb(31, 5, 56);
+    box-shadow: 2px 2px 2px rgb(76, 76, 76);
+    font-family:'Poppins', sans-serif;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.main #main-right #main-right-right #main-right-right-form button:hover{
+    background-color: rgb(16, 1, 29)
 }

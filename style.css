@@ -5,6 +5,7 @@
 .nav{
     display: flex;
     position: fixed;
+    width: 100vw;
     right: 0;
     left: 0;
     flex-direction: row;
@@ -26,6 +27,7 @@
     text-decoration: none;
 }
 .nav #nav-right ul{
+    margin-right: 20px;
     display: flex;
     flex-direction: row;
 }
